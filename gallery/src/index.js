@@ -4,6 +4,7 @@ import App from './App';
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
 import Cars from './Components/Cars/Cars';
 import Header from './Components/Header/Header';
+import Bikes from './Components/Bikes/Bikes';
 
 
 render(
@@ -13,7 +14,7 @@ render(
     
     <Route path='/' element={<App />} />
     <Route path='/cars' element={<Cars/>} />
-  
+    <Route path='/bikes' element={<Bikes />} />
     
   </Routes>
 </Router>,
