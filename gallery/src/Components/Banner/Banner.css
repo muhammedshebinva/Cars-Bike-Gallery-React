@@ -1,0 +1,32 @@
+.banner{
+    background-image: url('https://i.pinimg.com/originals/b6/a8/b2/b6a8b21779037940578a2130b27bf6d2.jpg');
+    background-size: cover;
+    height: 800px;
+    color: white;
+    margin-top: -103px;
+    
+}
+.bannerContent{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color:rgb(51, 51, 51,0.5) ;
+   
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-top: 2rem;
+   }
+   .button:hover{
+       color: black;
+       background-color: #e6e6e6;
+   }
