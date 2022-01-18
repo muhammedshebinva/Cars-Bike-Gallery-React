@@ -3,10 +3,19 @@ import { Form,Row,Col,Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import '../AddCollecton/Add.css'
-function Login() {
+function SignUp() {
     return (
         <div>
-            <Form className='FormMain'>
+    <Form className='FormMain'>
+
+     <Form.Group as={Row} className="mb-3" controlId="Text3">
+    <Form.Label column sm="2">
+      User Name
+    </Form.Label>
+    <Col sm="10">
+      <Form.Control type="text" placeholder='user name' />
+    </Col>
+  </Form.Group>
   <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
     <Form.Label column sm="2">
       Email
@@ -28,12 +37,12 @@ function Login() {
   <Form.Group as={Row} className="mb-3">
     <Form.Label column sm="2">
 
-    <Link to='/signup'>Create New Account</Link>
+    <Link to='/login'>Already have account</Link>
 
     </Form.Label>
     <Col sm="10">
     <Button variant="primary" type="submit">
-    Login
+    SignUp
   </Button>
     </Col>
   </Form.Group>
@@ -43,4 +52,4 @@ function Login() {
     )
 }
 
-export default Login
+export default SignUp
