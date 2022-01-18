@@ -6,6 +6,7 @@ import Cars from './Components/Cars/Cars';
 import Header from './Components/Header/Header';
 import Bikes from './Components/Bikes/Bikes';
 import Add from './Components/AddCollecton/Add';
+import Login from './Components/Login/Login';
 
 
 render(
@@ -17,6 +18,7 @@ render(
     <Route path='/cars' element={<Cars/>} />
     <Route path='/bikes' element={<Bikes />} />
     <Route path='/add' element={<Add/>}/>
+    <Route path='/login' element={<Login/>} />
     
   </Routes>
 </Router>,
